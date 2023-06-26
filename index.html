@@ -1,6 +1,96 @@
-<Doctype html>
-  <h1> RandDOS Hosting</h1>
-  <p> This site is still in early alpha</p>
-  <h2> Getting started</h2>
-  <p>We wanted to design RandDOS so it is as flexible as possible and when others host it that it wouldnt take hours to properly configure. Thats why the html document has been specially modified so it could run off one singular html file and nothing else! Essentially everyone can host a RandDOS instance just using a html file and not all of it. There will be a site made for RandDOS instances so all of the ones made will be shown (you will have to complete a form for yours to be acknowledged!)</p>
-  <h2>Downloading and setup</h2>
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+    <meta author="Therandomspoon, games and software from internet archive" />
+    <title>software emulator</title>
+    <link rel="icon" type="image/x-icon" href="https://therandomspoon.github.io/RandDOS/favicon.ico">
+    <link rel="stylesheet" href="main-site.css">
+    <script src="https://therandomspoon.github.io/RandDOS/emulators.js"></script>
+    <script src="https://therandomspoon.github.io/RandDOS/emulators-ui.js"></script>
+    <link rel="stylesheet" href="https://therandomspoon.github.io/RandDOS/emulators-ui.css">
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-8WE4R0SF69"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+    
+        gtag('config', 'G-8WE4R0SF69');
+    </script>
+<body>
+    <form id="selection">
+        <p><b>RandDOS ms-dos software and game emulator</b><br
+            <script type="text/javascript" src="//counter.websiteout.net/js/22/0/0/0"></script>
+            <h1 style="color:white"> DISCLAIMER THIS IS THE RANDDOS ALPHA AND IS NOT PRODUCTION READY </h1>
+            <a href="documentation.html" target="_blank"> RandDOS documentation</a>
+            <a href="https://therandomspoon.github.io/RandDOS/halloffame.html" style="color:white"> The RandDOS hall of fame! </a>
+            <hr>Select a game: </p>
+        <select name="Game" id="gameselector">
+            <option value="https://therandomspoon.github.io/RandDOS/jsdos-files/thisone.jsdos">Note from therandomspoon</option>
+            <option value="https://therandomspoon.github.io/RandDOS/jsdos-files/persia.jsdos">Prince of Persia</option>
+            <option value="https://therandomspoon.github.io/RandDOS/jsdos-files/doom.jsdos">DOOM</option>
+            <option value="https://therandomspoon.github.io/RandDOS/jsdos-files/doom2.jsdos">DOOM II</option>
+            <option value="https://therandomspoon.github.io/RandDOS/jsdos-files/pac.jsdos">Pac Man</option>
+            <option value="https://therandomspoon.github.io/RandDOS/jsdos-files/BADAPPLE.jsdos">BAD APPLE on DOS</option>
+            <option value="https://therandomspoon.github.io/RandDOS/jsdos-files/CMENU24.jsdos">CMENU24</option>
+            <option value="https://therandomspoon.github.io/RandDOS/jsdos-files/4.6.1.jsdos">Not sure what this is</option>
+            <option value="https://therandomspoon.github.io/RandDOS/jsdos-files/simc.jsdos">Sim City</option>
+            <option value="https://therandomspoon.github.io/RandDOS/jsdos-files/simc2.jsdos">Sim City 2000</option>
+            <option value="https://therandomspoon.github.io/RandDOS/jsdos-files/editv41u.jsdos.jsdos">Text editor</option>
+            <option value="https://therandomspoon.github.io/RandDOS/jsdos-files/arkanoid.jsdos">Arkanoid</option>
+            <option value="https://therandomspoon.github.io/RandDOS/jsdos-files/warcraft.jsdos">WarCraft: Orcs & Humans</option>
+            <option value="https://therandomspoon.github.io/RandDOS/jsdos-files/gta.jsdos">Grand Theft Auto</option>
+            <option value="https://therandomspoon.github.io/RandDOS/jsdos-files/nfs.jsdos">Need For Speed</option>
+            <option value="https://therandomspoon.github.io/RandDOS/jsdos-files/tetris.jsdos">Tetris</option>
+            <option value="https://therandomspoon.github.io/RandDOS/jsdos-files/oregon.jsdos">Oregon Trail Deluxe</option>
+            <option value="https://therandomspoon.github.io/RandDOS/jsdos-files/XE_V3.jsdos">Disk something</option>
+            <option value="https://therandomspoon.github.io/RandDOS/jsdos-files/bomberman.jsdos">Bomberman</option>
+            <option value="https://therandomspoon.github.io/RandDOS/jsdos-files/chess.jsdos">Chess</option>
+            <option value="https://therandomspoon.github.io/RandDOS/jsdos-files/acts-dem.jsdos">Football </option>
+            <option value="https://therandomspoon.github.io/RandDOS/jsdos-files/bbd02.jsdos">IBM Big Blue Disk</option>
+            <option value="https://therandomspoon.github.io/RandDOS/jsdos-files/MSBASIC.jsdos">Microsoft Basic 6 compiler </option>
+            <option value="https://therandomspoon.github.io/RandDOS/jsdos-files/cupsqm.jsdos">Quantum mechanics</option>
+            <option value="https://therandomspoon.github.io/RandDOS/jsdos-files/boagame.jsdos">Boa (Microsoft Mouse Game)</option>
+            <option value="https://therandomspoon.github.io/RandDOS/jsdos-files/ssf2tdem.jsdos">Street Fighter II</option>
+            <option value="https://therandomspoon.github.io/RandDOS/jsdos-files/sonicvd-box.jsdos">Sonic</option>
+            <option value="https://therandomspoon.github.io/RandDOS/jsdos-files/bmbr2box.jsdos">Bomber</option>
+            <option value="https://therandomspoon.github.io/RandDOS/jsdos-files/wolf.jsdos">Wolfenstein</option>
+            <option value="https://therandomspoon.github.io/RandDOS/jsdos-files/mario&luigi.jsdos">Mario&Luigi</option>
+            <option value="https://therandomspoon.github.io/RandDOS/jsdos-files/calculator.bat">Calculator</option>
+            <option value="https://therandomspoon.github.io/RandDOS/jsdos-files/DUKE3D.jsdos">Duke Nukem 3D</option>
+            <option value="https://therandomspoon.github.io/RandDOS/jsdos-files/3point.jsdos"> 3 point basketball </option>
+            <option value="https://therandomspoon.github.io/RandDOS/jsdos-files/win203.jsdos">win203</option>
+            <option value="https://therandomspoon.github.io/RandDOS/jsdos-files/arachne.jsdos">arachne</option>
+            <option value="https://therandomspoon.github.io/RandDOS/jsdos-files/BorlandTurboC201-megapack.jsdos">idk BorlandTurboC201-megapack/option>
+            <option value="https://therandomspoon.github.io/RandDOS/jsdos-files/dosshell.jsdos">dosshell</option>
+            <option value="https://therandomspoon.github.io/RandDOS/jsdos-files/Microsoft Paintbrush.jsdos">MS PAINT</option>
+            <option value="https://therandomspoon.github.io/RandDOS/jsdos-files/fdo.jsdos">fdo</option>
+            <option value="https://therandomspoon.github.io/RandDOS/jsdos-files/word5dos.jsdos">Microsoft Word 5</option>
+            <option value="https://therandomspoon.github.io/RandDOS/jsdos-files/Win31Betas.jsdos">Windows31Beta</option>
+            <option value="https://therandomspoon.github.io/RandDOS/jsdos-files/QBasic_Programming_101_disk.jsdos">QBasic_Programming_101_disk</option>
+            <option value="https://1drv.ms/u/s!AklCtGoAlTJo_VKXEXFtHHp1vYRr?e=UrQaX5">Fallout - Broken :(</option>
+            <option value="jsdos-files/GEOCLOCK.jsdos">GEO Clock</option>
+            <option value="https://therandomspoon.github.io/RandDOS/jsdos-files/cupstp.jsdos">physics simulator</option>
+            <option value="https://therandomspoon.github.io/RandDOS/jsdos-files/cupscm.jsdos">eg and mag field simulator</option>
+            <option value="https://therandomspoon.github.io/RandDOS/jsdos-files/cupstp.jsdos">mechanical simulator</option>
+            <option value="https://therandomspoon.github.io/RandDOS/jsdos-files/(1).zip">Radiation simulator</option> 
+            <option value="https://therandomspoon.github.io/RandDOS/jsdos-files/IFT5DEMO.jsdos">Instuctional flight video</option>
+            <option value="https://therandomspoon.github.io/RandDOS/jsdos-files/graphictest.jsdos">graphics test</option>
+            <option value="https://therandomspoon.github.io/RandDOS/jsdos-files/graphicdiag.jsdos">graphics diagnostic</option>
+            <option value="https://therandomspoon.github.io/RandDOS/jsdos-files/benchgen.jsdos">benchmark (general) test</option>
+            <option value="https://therandomspoon.github.io/RandDOS/jsdos-files/Diagnosticmap.jsdos">Diagnostic map</option>
+            <option value="https://therandomspoon.github.io/RandDOS/jsdos-files/speedbench.jsdos">speedbench </option>
+            
+        </select> <br> <br>
+        <button type="submit">Play</button>
+        <p> This is a RandDOS hosted instance. The original was created by therandomspoon and is free on GitHub</p>
+         <br> <br>
+            
+    </form>
+    <div id="jsdos" />
+    <script src="https://therandomspoon.github.io/RandDOS/main.js"></script>
+    <p> </p>
+</body>
+</html>
